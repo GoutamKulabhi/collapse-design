@@ -1,0 +1,37 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	background-color: #A9DFBF;
+	margin-top: 5%;
+	
+	
+}
+
+button{
+	display: flex;
+	width:100%;
+	background-color: #12F258;
+	padding:8px;
+	font-size:2em;
+	font-weight:600;
+	cursor: pointer;
+	line-height: 2;
+}
+
+h2{
+	text-align: center;
+}
+
+.font{
+	display: flex;
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+@media screen and (max-width: 768px){
+
+	button{
+		font-size: 1em;
+		width:100%;
+	}
+}
